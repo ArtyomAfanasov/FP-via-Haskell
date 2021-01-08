@@ -5,11 +5,11 @@
 
   Using accumulator pattern.
 
-* [Recurrent Sequence task](RecurrentSequence.hs)
+* [Recurrent Sequence task](RecurrentSequence.hs):
   
   Implement an element search function using the following formula. 
   
-  <img src="https://render.githubusercontent.com/render/math?math=a_0 = 1, a_1 = 2, a_2 = 3, a_{k %2B 3} = a_{k %2B 2} + a_{k %2B 1} - 2a_k">
+  <img src="https://render.githubusercontent.com/render/math?math=a_0 = 1, a_1 = 2, a_2 = 3, a_{k %2B 3} = a_{k %2B 2} %2B a_{k %2B 1} - 2a_k">
   
   GHCi> getElement 301
   
