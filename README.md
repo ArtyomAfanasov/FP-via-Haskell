@@ -9,7 +9,7 @@
   
   Implement an element search function using the following formula. 
   
-  <img src="https://render.githubusercontent.com/render/math?math=a_0 = 1, a_1 = 2, a_2 = 3, a_{k + 3} = a_{k + 2} + a_{k + 1} - 2a_k">
+  <img src="https://render.githubusercontent.com/render/math?math=a_0 = 1, a_1 = 2, a_2 = 3, a_{k+3} = a_{k + 2} + a_{k + 1} - 2a_k">
   
   GHCi> getElement 301
   
