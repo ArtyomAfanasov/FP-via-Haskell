@@ -15,7 +15,7 @@
   
   1276538859311178639666612897162414
 
-* [Sum and count of digits in number](Part1/SumAndCoundOfDigits.hs)
+* [Sum and count of digits in number](Part1/SumAndCountOfDigits.hs)
 
   Реализуйте функцию, находящую сумму и количество цифр десятичной записи заданного целого числа.
   
