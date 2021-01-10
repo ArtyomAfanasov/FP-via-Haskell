@@ -22,5 +22,13 @@
   GHCi> sum'n'count (-39)
   
   (12,2)
+
+* [Integration via trapezoid method](Part1/Integration.hs)
+
+  Реализуйте функцию, находящую значение определённого интеграла от заданной функции ff на заданном интервале [a,b][a,b] методом трапеций. (Используйте равномерную сетку; достаточно 1000 элементарных отрезков.)
+   
+  GHCi> integration sin pi 0
   
+  -2.0
+
 ### Functional programming via Haskell part 2. Stepik -- https://stepik.org/course/693/syllabus.
