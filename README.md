@@ -31,4 +31,22 @@
   
   -2.0
 
+* [Classes of types implementation for Bool and Unit with toString function](Part1/ClassesOfTypes.hs)
+
+  Реализуйте класс типов Printable, предоставляющий один метод toString — функцию одной переменной, которая преобразует значение типа, являющегося представителем Printable, в строковое представление.
+ 
+  Сделайте типы данных Bool и () представителями этого класса типов, обеспечив следующее поведение:
+
+  GHCi> toString True
+
+  "true"
+
+  GHCi> toString False
+
+  "false"
+
+  GHCi> toString ()
+
+  "unit type"
+  
 ### Functional programming via Haskell part 2. Stepik -- https://stepik.org/course/693/syllabus.
