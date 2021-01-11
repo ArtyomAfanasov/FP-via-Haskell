@@ -48,5 +48,15 @@
   GHCi> toString ()
 
   "unit type"
+
+  Сделайте тип пары представителем класса типов Printable, реализованного вами в предыдущей задаче, обеспечив следующее поведение:
+
+  GHCi> toString (False,())
+
+  "(false,unit type)"
+
+  GHCi> toString (True,False)
+
+  "(true,false)"
   
 ### Functional programming via Haskell part 2. Stepik -- https://stepik.org/course/693/syllabus.
