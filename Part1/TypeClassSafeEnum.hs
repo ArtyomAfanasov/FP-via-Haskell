@@ -1,7 +1,10 @@
-class SafeEnum a where
-    ssucc :: a -> a
+class (Bounded a, Enum a, Eq a) => SafeEnum a where
+    ssucc :: a -> a        
+    ssucc arg
+        | arg == maxBound = minBound
+        | otherwise = succ arg
+
     spred :: a -> a
-        
-    ssucc a = undefined
-    
-    spred a = undefined
+    spred arg
+        | arg == minBound = maxBound
+        | otherwise = pred arg
